@@ -1,0 +1,27 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+
+/* select child of */
+.box > p {
+    color: firebrick;
+}
+
+
+/* select descendant */
+.list li {
+    color: blue;
+}
+
+
+
+li.done {
+    color: seagreen;
+}
+
+/* Combining CSS sectors */
+ul  p.done {
+    font-size: 0.5rem;
+}
