@@ -20,7 +20,7 @@ footer {
 }
 
 .tile-image {
-  height: 200%;
+  height: 200px;
   float: left;
   margin-right: 50px;
 }
@@ -31,16 +31,15 @@ footer {
 
 .left {
   float: left;
-  
 }
 
 .right {
   float: right;
 }
 
-@media (max-width:680px) {
+@media (max-width: 680px) {
   .logo {
-    width: 100%;
+    width: 100px;
   }
 
   h1 {
